@@ -1,16 +1,18 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #343a40;
+    background-color: hsl(234 20% 30%);
     box-sizing: border-box;
     text-align: center;
 }
 
 h1 {
-    color: white;
+    color: 	hsl(52 50% 91%);
+    font-size: 3em;
 }
 
 button {
     font-size: 2em;
+    border-radius: 10px;
 }
 
 .calculator {
@@ -18,6 +20,7 @@ button {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(7, 1fr);
     gap: 5px;
+    min-height: 80vh;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -26,12 +29,25 @@ button {
 .numberDisplay {
     grid-column-start: 1;
     grid-column-end: 5;
-    background-color: #b2b9b7;
+    background-color: hsl(163 5% 71%);
+    box-shadow: inset -5px -5px grey;
 }
 
-#equals {
+.number {
+    background-color: hsl(13 68% 63%);
+    box-shadow: inset -5px -5px 5px hsl(13 68% 25%);
+}
+
+.operator {
+    background-color: hsl(37 79% 75%);
+    box-shadow: inset -5px -5px 5px hsl(37 79% 25%)
+}
+
+.equals {
     grid-column-start: 4;
     grid-row-start: 6;
+    background-color: hsl(151 24% 60%);
+    box-shadow: inset -5px -5px 5px hsl(151 24% 25%)
 }
 
 .zero {
