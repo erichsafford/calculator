@@ -30,7 +30,8 @@ button {
     grid-column-start: 1;
     grid-column-end: 5;
     background-color: hsl(163 5% 71%);
-    box-shadow: inset -5px -5px grey;
+    /* box-shadow: inset -5px -5px grey; */
+    border: 5px groove hsl(163 5% 45%);
 }
 
 .number {

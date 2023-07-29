@@ -37,12 +37,3 @@ function operate(op, x, y) {
         return divide(x, y);
     };
 };
-
-let plus = operate("+", 3, 5);
-console.log(plus);
-let minus = operate("-", 5, 3);
-console.log(minus);
-let times = operate('*', 12, 12);
-console.log(times)
-let erich = operate("/", 15, 3)
-console.log(erich)
