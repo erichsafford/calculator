@@ -1,10 +1,10 @@
 let firstNum
 let secondNum
-let operator 
+let operator
 
 // Add //
 function add(firstNum, secondNum) {
-    return firstNum + secondNum;    
+    return firstNum + secondNum;
 };
 
 // Subtract //
@@ -27,7 +27,7 @@ function operate(op, x, y) {
     firstNum = x;
     secondNum = y;
     operator = op
-    if (op === "+") {   
+    if (op === "+") {
         return add(firstNum, secondNum);
     } else if (op === "-") {
         return subtract(x, y);
