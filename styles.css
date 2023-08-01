@@ -32,6 +32,9 @@ button {
     background-color: hsl(163 5% 71%);
     /* box-shadow: inset -5px -5px grey; */
     border: 5px groove hsl(163 5% 45%);
+    text-align: right;
+    font-size: 24px;
+    padding-right: .5em;
 }
 
 .number {
@@ -39,7 +42,9 @@ button {
     box-shadow: inset -5px -5px 5px hsl(13 68% 25%);
 }
 
-.operator {
+.operator,
+.clear,
+.posNeg {
     background-color: hsl(37 79% 75%);
     box-shadow: inset -5px -5px 5px hsl(37 79% 25%)
 }
